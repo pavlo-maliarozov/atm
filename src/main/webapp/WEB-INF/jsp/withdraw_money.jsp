@@ -36,7 +36,7 @@
 <h1>Please, enter amount</h1>
 <div align="center">
 <form name="withdraw" method="post" action="/calculate_withdraw">
-  <input type="text" name="withdraw" pattern="{0-9}">
+  <input type="text" autocomplete="off" name="withdraw" pattern="{0-9}">
   <br>
   <input type="submit" class="button" value="Withdraw">
   <input type="reset" class="button" value="Cancel">
